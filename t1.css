@@ -1,0 +1,24 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+#round {
+    transition: 1s;
+    list-style-type: none;
+}
+
+#round::marker {
+    display: none
+}
+
+#wo{
+    transition: 0.6s;
+}
+
+details[open] summary~* {
+    animation: sweep .5s ease-in-out;
+}
+
